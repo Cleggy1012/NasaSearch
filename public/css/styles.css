@@ -1,0 +1,41 @@
+.listImg {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchContainer{
+    float: left;
+    align-content: center;
+    margin: 0px 5px 5px 0px;
+}
+.searchContainer .audio {
+    padding: 70px 0px 69px 0px;
+}
+.center {
+    text-align: center;
+}
+.assetPage img {
+    margin-top: 40px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.hasError {
+    color: red;
+}
+.hasError input {
+    border-color: red;
+}
+.alert {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
